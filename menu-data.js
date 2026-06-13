@@ -1,4 +1,51 @@
 window.VS_VIET_MENU = {
+    instagramPosts: [
+        {
+            type: "image",
+            src: "images/opening-for-dinner.jpg",
+            alt: "V's Viet Cafe opening for dinner on Thursdays and Fridays",
+            caption: "By popular demand... we're opening our doors for dinner on Thursdays & Fridays! Join us for your Vietnamese favourites 🇻🇳🍜🍲🥖 We will now be opening late nights on Thursday & Friday starting the 11th of September! We will be serving our Vietnamese menu only (no more breakfast menu)."
+        },
+        {
+            type: "video",
+            src: "images/video-banh-mi.mp4",
+            poster: "images/banh mi.jpg",
+            alt: "Crispy pork banh mi at V's Viet Cafe",
+            caption: "Golden crackling, juicy pork, pickled crunch, and a fresh-baked roll — our crispy pork banh mi is a flavour bomb 🇻🇳🔥 Pair it with a smooth, rich coffee and you've got the ultimate combo locals can't get enough of."
+        },
+        {
+            type: "video",
+            src: "images/video-coffee.mp4",
+            poster: "images/coffee.png",
+            alt: "Coffee, brunch and banh mi at V's Viet Cafe",
+            caption: "Coffee ☕️, brunch bites, and authentic Vietnamese bánh mì 🥖 — all in one cozy corner... and your furry bestie by your side 🐶☕🍳 Yes, we're pet-friendly! Your cravings just found their home 🇻🇳✨"
+        },
+        {
+            type: "image",
+            src: "images/team.jpg",
+            alt: "The team at V's Viet Cafe — Khang, Vi and Nhi",
+            caption: "🌟 Meet the heart and soul of V's Viet Café! On the left, say hello to Khang, our masterful barista. In the middle, meet Vi, the visionary owner. And on the right, Nhi, our friendly front-of-house. Together, they bring joy to every cup and every customer. ☕️💫"
+        },
+        {
+            type: "image",
+            src: "images/puppucinos.jpg",
+            alt: "Puppucinos for dogs at V's Viet Cafe",
+            caption: "Unleash joy with our puppucinos! Treat your furry friend to a delightful experience at our dog-friendly cafe! 🐾"
+        },
+        {
+            type: "image",
+            src: "images/catering.jpg",
+            alt: "Vietnamese catering by V's Viet Cafe",
+            caption: "Treat your guests to an unforgettable Vietnamese feast! Our catering brings the flavors of Vietnam right to your event. 🇻🇳"
+        },
+        {
+            type: "video",
+            src: "images/video-meal.mp4",
+            poster: "images/pho-noodle-soup.jpg",
+            alt: "Vietnamese teaser menu at Social Sphere Marsden",
+            caption: "Elevate your weekend with a taste of Vietnam! Join us @socialspheremarsden for the teaser menu featuring authentic Vietnamese delights, available all weekend!"
+        }
+    ],
     categories: [
         {
             slug: "drinks",
@@ -223,12 +270,8 @@ window.VS_VIET_MENU = {
             "hero.menuCta": "Explore Menu",
             "hero.orderCta": "Order Online",
             "updates.title": "Fresh From V's",
-            "updates.copy": "The dishes locals come in for: banh mi, pho, vermicelli salads and coffee.",
+            "updates.copy": "Follow along for new dishes, specials and behind-the-scenes moments.",
             "updates.follow": "Follow us",
-            "updates.welcome": "Crispy pork banh mi, rice paper rolls and coffee ready from morning.",
-            "updates.labour": "Pho, bun bo hue and noodle soups for a comforting lunch.",
-            "updates.anzac": "Fresh vermicelli salads with herbs, pickles, peanuts and nuoc cham.",
-            "updates.easter": "Cafe breakfasts, burgers, kids meals and pet-friendly treats.",
             "menu.eyebrow": "Pick a category",
             "menu.title": "Menu",
             "menu.copy": "Browse V's Vietnamese dishes, cafe breakfasts, barista drinks, kids options and share plates.",
@@ -283,12 +326,8 @@ window.VS_VIET_MENU = {
             "hero.menuCta": "Xem thuc don",
             "hero.orderCta": "Dat online",
             "updates.title": "Mon ngon tu V's",
-            "updates.copy": "Nhung mon khach dia phuong yeu thich: banh mi, pho, bun salad va ca phe.",
+            "updates.copy": "Theo doi de cap nhat mon moi, khuyen mai va hau truong.",
             "updates.follow": "Theo doi",
-            "updates.welcome": "Banh mi heo quay, goi cuon va ca phe san sang tu buoi sang.",
-            "updates.labour": "Pho, bun bo Hue va mi nuoc am long cho bua trua.",
-            "updates.anzac": "Bun salad tuoi voi rau thom, do chua, dau phong va nuoc cham.",
-            "updates.easter": "Bua sang cafe, burger, mon tre em va mon cho cun.",
             "menu.eyebrow": "Chon danh muc",
             "menu.title": "Thuc don",
             "menu.copy": "Xem cac mon Viet, bua sang cafe, do uong pha may, mon tre em va mon chia se cua V's.",
