@@ -342,23 +342,6 @@ button, input, select, textarea { font: inherit; }
     display: block;
 }
 
-/* Instagram badge */
-.update-card-ig-badge {
-    position: absolute;
-    top: 0.6rem;
-    right: 0.6rem;
-    width: 30px;
-    height: 30px;
-    border-radius: 999px;
-    background: var(--ig-gradient);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.88rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-}
-
 /* Video play button */
 .update-card-play {
     position: absolute;
