@@ -51,10 +51,10 @@ window.VS_VIET_MENU = {
             slug: "drinks",
             icon: "fa-mug-hot",
             image: "images/coffee.png",
-            name: { en: "Drinks & Coffee", vi: "Do uong va ca phe" },
+            name: { en: "Drinks & Coffee", vi: "Đồ uống & Cà phê" },
             intro: {
                 en: "Barista coffee, Vietnamese-style iced drinks, frappes, fresh juices, iced teas and cold favourites.",
-                vi: "Ca phe pha may, do uong da kieu Viet, frappe, nuoc ep tuoi, tra da va cac loai nuoc lanh."
+                vi: "Cà phê pha máy, đồ uống đá kiểu Việt, frappe, nước ép tươi, trà đá và các loại nước lạnh."
             },
             items: [
                 ["Cappuccino", "from $5", "Cappuccino"],
@@ -62,39 +62,39 @@ window.VS_VIET_MENU = {
                 ["Flat White", "from $5", "Flat white"],
                 ["Long Black", "from $5", "Long black"],
                 ["Mocha", "from $5.50", "Mocha"],
-                ["Hot Chocolate", "from $5.50", "Socola nong"],
-                ["Chai or Dirty Chai", "from $5.50", "Chai hoac dirty chai"],
-                ["Iced Latte or Iced Long Black", "from $5", "Latte da hoac long black da"],
-                ["Coffee, Mocha, Chocolate or Caramel Frappe", "from $7", "Frappe ca phe, mocha, socola hoac caramel"],
-                ["Milkshake or Thickshake", "from $7", "Milkshake hoac thickshake"],
-                ["Tea Pot", "$5", "Tra am"],
-                ["Fresh Juice", "$8", "Nuoc ep tuoi"],
-                ["Watermelon, Mango, Banana or Berry Crush", "from $8.50", "Da xay dua hau, xoai, chuoi hoac dau"],
-                ["Mango, Passionfruit, Lychee, Lemon or Peach Iced Tea", "$7", "Tra da xoai, chanh day, vai, chanh hoac dao"],
-                ["Soft Drink", "$3.50", "Nuoc ngot"]
+                ["Hot Chocolate", "from $5.50", "Sô-cô-la nóng"],
+                ["Chai or Dirty Chai", "from $5.50", "Chai hoặc dirty chai"],
+                ["Iced Latte or Iced Long Black", "from $5", "Latte đá hoặc long black đá"],
+                ["Coffee, Mocha, Chocolate or Caramel Frappe", "from $7", "Frappe cà phê, mocha, sô-cô-la hoặc caramel"],
+                ["Milkshake or Thickshake", "from $7", "Milkshake hoặc thickshake"],
+                ["Tea Pot", "$5", "Trà ấm"],
+                ["Fresh Juice", "$8", "Nước ép tươi"],
+                ["Watermelon, Mango, Banana or Berry Crush", "from $8.50", "Đá xay dưa hấu, xoài, chuối hoặc dâu"],
+                ["Mango, Passionfruit, Lychee, Lemon or Peach Iced Tea", "$7", "Trà đá xoài, chanh dây, vải, chanh hoặc đào"],
+                ["Soft Drink", "$3.50", "Nước ngọt"]
             ]
         },
         {
             slug: "all-day-breakfast",
             icon: "fa-egg",
             image: "images/breakfast.png",
-            name: { en: "All Day Breakfast", vi: "Bua sang ca ngay" },
+            name: { en: "All Day Breakfast", vi: "Bữa sáng cả ngày" },
             intro: {
                 en: "Cafe breakfast favourites for early starts, school-run coffees and slow weekend mornings.",
-                vi: "Cac mon an sang quen thuoc cho buoi sang som, ly ca phe tren duong di hoc va cuoi tuan thong tha."
+                vi: "Các món ăn sáng quen thuộc cho buổi sáng sớm, ly cà phê trên đường đi học và cuối tuần thong thả."
             },
             items: [
-                ["Eggs on Toast", "$11", "Trung an kem banh mi nuong"],
-                ["Avo on Toast", "$15", "Bo nghien tren banh mi nuong"],
-                ["Eggs Benedict", "$18", "Trung Benedict"],
-                ["Big Breakfast", "$25", "Bua sang lon"],
-                ["Medium Breakfast", "$20", "Bua sang vua"],
-                ["Vege Breakfast", "$20", "Bua sang chay"],
-                ["Bacon & Egg Burger", "$14", "Burger thit xong khoi va trung"],
-                ["Pancake Stack", "$15", "Pancake xep tang"],
-                ["Maple Bacon Pancakes", "$18", "Pancake thit xong khoi sot maple"],
-                ["Salmon Croissant", "$18", "Croissant ca hoi"],
-                ["Open Omelette", "$17", "Trung op-let mo"],
+                ["Eggs on Toast", "$11", "Trứng ăn kèm bánh mì nướng"],
+                ["Avo on Toast", "$15", "Bơ nghiền trên bánh mì nướng"],
+                ["Eggs Benedict", "$18", "Trứng Benedict"],
+                ["Big Breakfast", "$25", "Bữa sáng lớn"],
+                ["Medium Breakfast", "$20", "Bữa sáng vừa"],
+                ["Vege Breakfast", "$20", "Bữa sáng chay"],
+                ["Bacon & Egg Burger", "$14", "Burger thịt xông khói và trứng"],
+                ["Pancake Stack", "$15", "Pancake xếp tầng"],
+                ["Maple Bacon Pancakes", "$18", "Pancake thịt xông khói sốt maple"],
+                ["Salmon Croissant", "$18", "Croissant cá hồi"],
+                ["Open Omelette", "$17", "Trứng ốp-lết mở"],
                 ["BLAT", "$16", "BLAT"]
             ]
         },
@@ -102,155 +102,155 @@ window.VS_VIET_MENU = {
             slug: "cafe-lunch",
             icon: "fa-burger",
             image: "images/array.jpeg",
-            name: { en: "Cafe Lunch", vi: "Bua trua cafe" },
+            name: { en: "Cafe Lunch", vi: "Bữa trưa café" },
             intro: {
                 en: "Burgers, steak sandwiches, toasted open sandwiches, chips and easy plates for a casual lunch.",
-                vi: "Burger, steak sandwich, sandwich nuong mo, khoai chien va cac mon de an cho bua trua than mat."
+                vi: "Burger, steak sandwich, sandwich nướng mở, khoai chiên và các món dễ ăn cho bữa trưa thân mật."
             },
             items: [
-                ["Ultimate Beef Burger", "$20", "Burger bo dac biet"],
-                ["Caesar Chicken Burger", "$18", "Burger ga Caesar"],
-                ["Steak Sandwich", "$20", "Sandwich bo bit tet"],
-                ["Chicken & Avo Grilled Open Sandwich", "$20", "Sandwich nuong ga va bo"],
-                ["Bacon & Egg Grilled Open Sandwich", "$16", "Sandwich nuong thit xong khoi va trung"],
-                ["Ham, Cheese & Tomato Grilled Open Sandwich", "$18", "Sandwich nuong jambon, pho mai va ca chua"],
-                ["Vegetarian Grilled Open Sandwich", "$18", "Sandwich nuong chay"],
-                ["Chips", "from $4", "Khoai chien"],
-                ["Wedges with Sour Cream & Sweet Chilli", "$10", "Khoai tay mui cau voi sour cream va sot ot ngot"]
+                ["Ultimate Beef Burger", "$20", "Burger bò đặc biệt"],
+                ["Caesar Chicken Burger", "$18", "Burger gà Caesar"],
+                ["Steak Sandwich", "$20", "Sandwich bò bít-tết"],
+                ["Chicken & Avo Grilled Open Sandwich", "$20", "Sandwich nướng gà và bơ"],
+                ["Bacon & Egg Grilled Open Sandwich", "$16", "Sandwich nướng thịt xông khói và trứng"],
+                ["Ham, Cheese & Tomato Grilled Open Sandwich", "$18", "Sandwich nướng giăm bông, phô mai và cà chua"],
+                ["Vegetarian Grilled Open Sandwich", "$18", "Sandwich nướng chay"],
+                ["Chips", "from $4", "Khoai chiên"],
+                ["Wedges with Sour Cream & Sweet Chilli", "$10", "Khoai tây múi cau với sour cream và sốt ớt ngọt"]
             ]
         },
         {
             slug: "entree-sharing",
             icon: "fa-utensils",
             image: "images/entree.png",
-            name: { en: "Entree & Sharing", vi: "Khai vi va mon chia se" },
+            name: { en: "Entree & Sharing", vi: "Khai vị & Món chia sẻ" },
             intro: {
                 en: "Spring rolls, rice paper rolls, grilled skewers and tasting plates made for sharing.",
-                vi: "Cha gio, goi cuon, xien nuong va dia thu vi de cung nhau thuong thuc."
+                vi: "Chả giò, gỏi cuốn, xiên nướng và đĩa thử vị để cùng nhau thưởng thức."
             },
             items: [
-                ["Tasting Plate", "$18", "Dia thu vi"],
-                ["Pork Spring Rolls (4)", "$10", "Cha gio heo (4 cuon)"],
-                ["Vegetarian Spring Rolls (4)", "$10", "Cha gio chay (4 cuon)"],
-                ["Rice Paper Rolls (3)", "$10", "Goi cuon (3 cuon)"],
-                ["Skewer Sensations", "$5", "Xien nuong"],
-                ["Grilled Pork Balls Nem Nuong", "$10", "Nem nuong"],
-                ["Beef Wrapped in Betel Leaf Bo La Lot", "$10", "Bo la lot"],
-                ["Fried Pork Wontons", "$10", "Hoanh thanh heo chien"]
+                ["Tasting Plate", "$18", "Đĩa thử vị"],
+                ["Pork Spring Rolls (4)", "$10", "Chả giò heo (4 cuốn)"],
+                ["Vegetarian Spring Rolls (4)", "$10", "Chả giò chay (4 cuốn)"],
+                ["Rice Paper Rolls (3)", "$10", "Gỏi cuốn (3 cuốn)"],
+                ["Skewer Sensations", "$5", "Xiên nướng"],
+                ["Grilled Pork Balls Nem Nuong", "$10", "Nem nướng"],
+                ["Beef Wrapped in Betel Leaf Bo La Lot", "$10", "Bò lá lốt"],
+                ["Fried Pork Wontons", "$10", "Hoành thánh heo chiên"]
             ]
         },
         {
             slug: "pho-noodle-soups",
             icon: "fa-bowl-food",
             image: "images/pho-noodle-soup.jpg",
-            name: { en: "Pho & Noodle Soups", vi: "Pho va mi nuoc" },
+            name: { en: "Pho & Noodle Soups", vi: "Phở & Mì nước" },
             intro: {
                 en: "Steaming bowls with herbs, bean sprouts, tender meats and rich Vietnamese broths.",
-                vi: "Nhung to nuoc nong voi rau thom, gia, thit mem va nuoc dung Viet Nam dam da."
+                vi: "Những tô nước nóng với rau thơm, giá, thịt mềm và nước dùng Việt Nam đậm đà."
             },
             items: [
-                ["Special Beef Pho", "$21", "Pho bo dac biet"],
-                ["Beef & Beef Ball Pho", "$20", "Pho bo va bo vien"],
-                ["Chicken Pho", "$20", "Pho ga"],
-                ["Vegetarian Pho", "$20", "Pho chay"],
-                ["Bun Bo Hue", "$21", "Bun bo Hue"],
-                ["BBQ Pork & Wontons Egg Noodle Soup", "$18", "Mi hoanh thanh xa xiu"],
-                ["Crispy Pork & BBQ Pork Egg Noodle Soup", "$20", "Mi heo quay va xa xiu"],
-                ["Fried Wontons & BBQ Pork Dry Egg Noodles", "$18", "Mi kho hoanh thanh chien va xa xiu"]
+                ["Special Beef Pho", "$21", "Phở bò đặc biệt"],
+                ["Beef & Beef Ball Pho", "$20", "Phở bò và bò viên"],
+                ["Chicken Pho", "$20", "Phở gà"],
+                ["Vegetarian Pho", "$20", "Phở chay"],
+                ["Bun Bo Hue", "$21", "Bún bò Huế"],
+                ["BBQ Pork & Wontons Egg Noodle Soup", "$18", "Mì hoành thánh xá xíu"],
+                ["Crispy Pork & BBQ Pork Egg Noodle Soup", "$20", "Mì heo quay và xá xíu"],
+                ["Fried Wontons & BBQ Pork Dry Egg Noodles", "$18", "Mì khô hoành thánh chiên và xá xíu"]
             ]
         },
         {
             slug: "banh-mi",
             icon: "fa-pepper-hot",
             image: "images/banh mi.jpg",
-            name: { en: "Banh Mi", vi: "Banh mi" },
+            name: { en: "Banh Mi", vi: "Bánh mì" },
             intro: {
                 en: "Crisp Vietnamese baguettes with pate, mayo, pickles, herbs, chilli and your favourite filling.",
-                vi: "Banh mi Viet gion voi pate, bo, do chua, rau thom, ot va nhan ban yeu thich."
+                vi: "Bánh mì Việt giòn với pa-tê, bơ, đồ chua, rau thơm, ớt và nhân bạn yêu thích."
             },
             items: [
-                ["Classic Pork Banh Mi", "$10", "Banh mi thit nguoi truyen thong"],
-                ["Crispy Pork Banh Mi", "$10", "Banh mi heo quay"],
-                ["Gravy & Crispy Pork Banh Mi", "$10", "Banh mi heo quay sot gravy"],
-                ["Grilled Chicken Banh Mi", "$10", "Banh mi ga nuong"],
-                ["Bacon & Egg Banh Mi", "$10", "Banh mi thit xong khoi va trung"],
-                ["Grilled Pork Balls Banh Mi", "$10", "Banh mi nem nuong"],
-                ["Bo La Lot Banh Mi", "$10", "Banh mi bo la lot"],
-                ["Vegan Grilled Chicken Banh Mi", "$10", "Banh mi ga chay"],
-                ["Grilled Tofu Banh Mi", "$10", "Banh mi dau hu nuong"],
-                ["Mini Banh Mi Combo", "$18", "Combo banh mi mini"]
+                ["Classic Pork Banh Mi", "$10", "Bánh mì thịt nguội truyền thống"],
+                ["Crispy Pork Banh Mi", "$10", "Bánh mì heo quay"],
+                ["Gravy & Crispy Pork Banh Mi", "$10", "Bánh mì heo quay sốt gravy"],
+                ["Grilled Chicken Banh Mi", "$10", "Bánh mì gà nướng"],
+                ["Bacon & Egg Banh Mi", "$10", "Bánh mì thịt xông khói và trứng"],
+                ["Grilled Pork Balls Banh Mi", "$10", "Bánh mì nem nướng"],
+                ["Bo La Lot Banh Mi", "$10", "Bánh mì bò lá lốt"],
+                ["Vegan Grilled Chicken Banh Mi", "$10", "Bánh mì gà chay"],
+                ["Grilled Tofu Banh Mi", "$10", "Bánh mì đậu hũ nướng"],
+                ["Mini Banh Mi Combo", "$18", "Combo bánh mì mini"]
             ]
         },
         {
             slug: "vermicelli-salad",
             icon: "fa-leaf",
             image: "images/vermicelli.jpg",
-            name: { en: "Vermicelli Salad", vi: "Bun salad" },
+            name: { en: "Vermicelli Salad", vi: "Bún salad" },
             intro: {
                 en: "Fresh vermicelli noodle salads with herbs, crisp vegetables, peanuts and nuoc cham.",
-                vi: "Bun tuoi voi rau thom, rau gion, dau phong va nuoc cham."
+                vi: "Bún tươi với rau thơm, rau giòn, đậu phộng và nước chấm."
             },
             items: [
-                ["Beef Vermicelli Salad", "$15", "Bun bo salad"],
-                ["Pork Vermicelli Salad", "$15", "Bun heo salad"],
-                ["Chicken Vermicelli Salad", "$15", "Bun ga salad"],
-                ["Vegan Chicken Vermicelli Salad", "$15", "Bun ga chay salad"],
-                ["Crispy Roast Pork Vermicelli Salad", "$20", "Bun heo quay salad"]
+                ["Beef Vermicelli Salad", "$15", "Bún bò salad"],
+                ["Pork Vermicelli Salad", "$15", "Bún heo salad"],
+                ["Chicken Vermicelli Salad", "$15", "Bún gà salad"],
+                ["Vegan Chicken Vermicelli Salad", "$15", "Bún gà chay salad"],
+                ["Crispy Roast Pork Vermicelli Salad", "$20", "Bún heo quay salad"]
             ]
         },
         {
             slug: "rice-dishes",
             icon: "fa-bowl-rice",
             image: "images/rice-dish.jpg",
-            name: { en: "Rice Dishes", vi: "Com dia" },
+            name: { en: "Rice Dishes", vi: "Cơm đĩa" },
             intro: {
                 en: "Hearty rice plates with grilled meats, pickled vegetables, fried egg and savoury house sauces.",
-                vi: "Com dia no bung voi thit nuong, do chua, trung chien va sot nha lam dam da."
+                vi: "Cơm đĩa no bụng với thịt nướng, đồ chua, trứng chiên và sốt nhà làm đậm đà."
             },
             items: [
-                ["Pork Chop Rice", "$18", "Com suon"],
-                ["Crispy Chicken Rice", "$20", "Com ga gion"],
-                ["Grilled Lemongrass Chicken Rice", "$20", "Com ga nuong sa"],
-                ["Crispy Pork Rice", "$20", "Com heo quay"],
-                ["Braised Pork Belly & Egg Rice", "$18", "Com thit kho trung"],
-                ["Stir Fried Beef & Rice", "$20", "Com bo luc lac"],
-                ["Add Mini Banh Mi", "$5", "Them banh mi mini"],
-                ["Add Fried Egg", "$3", "Them trung chien"]
+                ["Pork Chop Rice", "$18", "Cơm sườn"],
+                ["Crispy Chicken Rice", "$20", "Cơm gà giòn"],
+                ["Grilled Lemongrass Chicken Rice", "$20", "Cơm gà nướng sả"],
+                ["Crispy Pork Rice", "$20", "Cơm heo quay"],
+                ["Braised Pork Belly & Egg Rice", "$18", "Cơm thịt kho trứng"],
+                ["Stir Fried Beef & Rice", "$20", "Cơm bò lúc lắc"],
+                ["Add Mini Banh Mi", "$5", "Thêm bánh mì mini"],
+                ["Add Fried Egg", "$3", "Thêm trứng chiên"]
             ]
         },
         {
             slug: "kids-menu",
             icon: "fa-child-reaching",
             image: "images/breakfast.png",
-            name: { en: "Kids Menu", vi: "Thuc don tre em" },
+            name: { en: "Kids Menu", vi: "Thực đơn trẻ em" },
             intro: {
                 en: "Simple favourites for little diners, from nuggets and mini burgers to pancakes and babycinos.",
-                vi: "Cac mon de an cho be nhu ga vien, burger mini, pancake va babycino."
+                vi: "Các món dễ ăn cho bé như gà viên, burger mini, pancake và babycino."
             },
             items: [
-                ["Chips & Nuggets", "$9", "Khoai chien va ga vien"],
-                ["Kids Pancakes", "$14", "Pancake tre em"],
-                ["Mini Cheeseburgers (2)", "$12", "Cheeseburger mini (2 cai)"],
-                ["Ham & Cheese Toastie", "$8", "Banh mi nuong jambon va pho mai"],
+                ["Chips & Nuggets", "$9", "Khoai chiên và gà viên"],
+                ["Kids Pancakes", "$14", "Pancake trẻ em"],
+                ["Mini Cheeseburgers (2)", "$12", "Cheeseburger mini (2 cái)"],
+                ["Ham & Cheese Toastie", "$8", "Bánh mì nướng giăm bông và phô mai"],
                 ["Babycino", "$3", "Babycino"],
-                ["Kids Milkshake", "$7", "Milkshake tre em"],
-                ["Kids Fresh Juice", "$6", "Nuoc ep tuoi tre em"],
-                ["Kids Omelette", "$12", "Trung op-let tre em"]
+                ["Kids Milkshake", "$7", "Milkshake trẻ em"],
+                ["Kids Fresh Juice", "$6", "Nước ép tươi trẻ em"],
+                ["Kids Omelette", "$12", "Trứng ốp-lết trẻ em"]
             ]
         },
         {
             slug: "dog-menu",
             icon: "fa-paw",
             image: "images/dog.png",
-            name: { en: "Dog Menu", vi: "Thuc don cho cun" },
+            name: { en: "Dog Menu", vi: "Thực đơn cho cún" },
             intro: {
                 en: "Pet-friendly treats for four-legged visitors joining you at the cafe.",
-                vi: "Mon an than thien cho cac ban cun ghe cafe cung ban."
+                vi: "Món ăn thân thiện cho các bạn cún ghé café cùng bạn."
             },
             items: [
                 ["Puppucino", "$4", "Puppucino"],
-                ["Pup Pho", "$8", "Pho cho cun"],
-                ["Pupsicle", "$5", "Kem que cho cun"]
+                ["Pup Pho", "$8", "Phở cho cún"],
+                ["Pupsicle", "$5", "Kem que cho cún"]
             ]
         }
     ],
@@ -312,60 +312,60 @@ window.VS_VIET_MENU = {
             "order.message": "Thanks. Please call 0410 788 999 to confirm this order, or use Uber Eats for live online ordering."
         },
         vi: {
-            "nav.homeAria": "Ve trang chu",
-            "nav.menu": "Thuc don",
-            "nav.about": "Gioi thieu",
-            "nav.location": "Dia chi",
-            "nav.order": "Dat mon",
-            "nav.call": "Goi",
-            "nav.callAria": "Goi V's Viet Cafe",
-            "hero.badge": "Mo cua 7 ngay tai Marsden",
+            "nav.homeAria": "Về trang chủ",
+            "nav.menu": "Thực đơn",
+            "nav.about": "Giới thiệu",
+            "nav.location": "Địa chỉ",
+            "nav.order": "Đặt món",
+            "nav.call": "Gọi",
+            "nav.callAria": "Gọi V's Viet Cafe",
+            "hero.badge": "Mở cửa 7 ngày tại Marsden",
             "hero.title": "V's Viet Cafe",
             "hero.titleAccent": "Marsden on Fifth",
-            "hero.copy": "Mon Viet dam da, ca phe ngon va nhung mon cafe than thien cho gia dinh ngay trung tam Marsden.",
-            "hero.menuCta": "Xem thuc don",
-            "hero.orderCta": "Dat online",
+            "hero.copy": "Món Việt đậm đà, cà phê ngon và những món café thân thiện cho gia đình ngay trung tâm Marsden.",
+            "hero.menuCta": "Xem thực đơn",
+            "hero.orderCta": "Đặt online",
             "updates.title": "Cập nhật mới nhất",
             "updates.copy": "Đã đồng bộ với trang Instagram của chúng tôi!",
-            "updates.follow": "Theo doi",
-            "menu.eyebrow": "Chon danh muc",
-            "menu.title": "Thuc don",
-            "menu.copy": "Xem cac mon Viet, bua sang cafe, do uong pha may, mon tre em va mon chia se cua V's.",
-            "menu.view": "Xem danh muc",
-            "menu.items": "mon",
-            "about.eyebrow": "Ve chung toi",
-            "about.title": "Huong vi Viet, cam giac cafe am cung va su hiếu khach cua Marsden.",
-            "about.p1": "V's Viet Cafe mang mon Viet chuan vi va ca phe ngon den Shop 8 tai Marsden on Fifth. Ghe qua de an nhanh mot o banh mi, mot to pho nong, bun salad tuoi hoac bua sang thong tha cung gia dinh.",
-            "about.p2": "Thuc don ket hop rau thom, do chua gion, nuoc dung dam da va cac mon cafe quen thuoc, phu hop mua mang di, giao hang, dat tiec nho va ngoi ngoai cung thu cung.",
-            "location.title": "Ghe tham chung toi",
-            "location.copy": "Tim chung toi tai Marsden on Fifth voi cho dau xe tien loi, phuc vu than thien va dat mon online qua Uber Eats.",
-            "location.addressLabel": "Dia chi",
-            "location.hoursLabel": "Gio mo cua",
-            "location.weekdays": "Thu Hai - Thu Sau",
-            "location.saturday": "Thu Bay",
-            "location.sunday": "Chu Nhat",
-            "location.contactLabel": "Lien he",
-            "category.back": "Ve thuc don",
-            "category.order": "Dat online",
-            "category.count": "So mon",
-            "order.eyebrow": "Dat online",
-            "order.title": "Dat mon V's Viet Cafe",
-            "order.copy": "Dung Uber Eats de giao hang hoac den lay, hoac goi quan cho don catering, don lon va yeu cau dac biet.",
-            "order.back": "Ve trang chu",
-            "order.name": "Ten cua ban",
-            "order.phone": "So dien thoai",
-            "order.type": "Loai don",
-            "order.typeRegular": "Don den lay",
-            "order.typeCatering": "Catering / don lon",
-            "order.item": "Mon hoac yeu cau",
-            "order.quantity": "So luong",
-            "order.pickup": "Gio den lay",
-            "order.date": "Ngay den lay",
-            "order.notes": "Ghi chu",
-            "order.submit": "Chuan bi don qua dien thoai",
-            "order.placeholder": "VD: 4 banh mi heo quay, 2 cai khong ot",
-            "order.notesPlaceholder": "Di ung, ghi chu an kieng, chi tiet catering hoac gio den lay",
-            "order.message": "Cam on. Vui long goi 0410 788 999 de xac nhan don nay, hoac dung Uber Eats de dat online."
+            "updates.follow": "Theo dõi",
+            "menu.eyebrow": "Chọn danh mục",
+            "menu.title": "Thực đơn",
+            "menu.copy": "Xem các món Việt, bữa sáng café, đồ uống pha máy, món trẻ em và món chia sẻ của V's.",
+            "menu.view": "Xem danh mục",
+            "menu.items": "món",
+            "about.eyebrow": "Về chúng tôi",
+            "about.title": "Hương vị Việt, cảm giác café ấm cúng và sự hiếu khách của Marsden.",
+            "about.p1": "V's Viet Cafe mang món Việt chuẩn vị và cà phê ngon đến Shop 8 tại Marsden on Fifth. Ghé qua để ăn nhanh một ổ bánh mì, một tô phở nóng, bún salad tươi hoặc bữa sáng thong thả cùng gia đình.",
+            "about.p2": "Thực đơn kết hợp rau thơm, đồ chua giòn, nước dùng đậm đà và các món café quen thuộc, phù hợp mua mang đi, giao hàng, đặt tiệc nhỏ và ngồi ngoài cùng thú cưng.",
+            "location.title": "Ghé thăm chúng tôi",
+            "location.copy": "Tìm chúng tôi tại Marsden on Fifth với chỗ đậu xe tiện lợi, phục vụ thân thiện và đặt món online qua Uber Eats.",
+            "location.addressLabel": "Địa chỉ",
+            "location.hoursLabel": "Giờ mở cửa",
+            "location.weekdays": "Thứ Hai - Thứ Sáu",
+            "location.saturday": "Thứ Bảy",
+            "location.sunday": "Chủ Nhật",
+            "location.contactLabel": "Liên hệ",
+            "category.back": "Về thực đơn",
+            "category.order": "Đặt online",
+            "category.count": "Số món",
+            "order.eyebrow": "Đặt online",
+            "order.title": "Đặt món V's Viet Cafe",
+            "order.copy": "Dùng Uber Eats để giao hàng hoặc đến lấy, hoặc gọi quán cho đơn catering, đơn lớn và yêu cầu đặc biệt.",
+            "order.back": "Về trang chủ",
+            "order.name": "Tên của bạn",
+            "order.phone": "Số điện thoại",
+            "order.type": "Loại đơn",
+            "order.typeRegular": "Đơn đến lấy",
+            "order.typeCatering": "Catering / đơn lớn",
+            "order.item": "Món hoặc yêu cầu",
+            "order.quantity": "Số lượng",
+            "order.pickup": "Giờ đến lấy",
+            "order.date": "Ngày đến lấy",
+            "order.notes": "Ghi chú",
+            "order.submit": "Chuẩn bị đơn qua điện thoại",
+            "order.placeholder": "VD: 4 bánh mì heo quay, 2 cái không ớt",
+            "order.notesPlaceholder": "Dị ứng, ghi chú ăn kiêng, chi tiết catering hoặc giờ đến lấy",
+            "order.message": "Cảm ơn. Vui lòng gọi 0410 788 999 để xác nhận đơn này, hoặc dùng Uber Eats để đặt online."
         }
     }
 };
