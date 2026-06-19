@@ -49,45 +49,20 @@
 
         scroll.innerHTML = menu.instagramPosts.map((post) => {
             const mediaHTML = post.type === "video"
-                ? `<video class="update-card-media" src="${post.src}" poster="${post.poster || ''}" muted playsinline loop preload="none" aria-label="${post.alt}"></video>
-                   <button class="update-card-play" aria-label="Play video"><i class="fa-solid fa-play"></i></button>`
+                ? `<video class="update-card-media" src="${post.src}" poster="${post.poster || ''}" autoplay muted loop playsinline preload="auto" aria-label="${post.alt}"></video>`
                 : `<img class="update-card-media" src="${post.src}" alt="${post.alt}" loading="lazy">`;
 
             return `
                 <article class="update-card update-card--ig">
-                    <div class="update-card-media-wrap${post.type === "video" ? " update-card-media-wrap--video" : ""}">
+                    <div class="update-card-media-wrap">
                         ${mediaHTML}
-                        </div>
+                    </div>
                     <div class="update-card-body">
                         <p class="update-card-caption">${post.caption}</p>
                     </div>
                 </article>
             `;
         }).join("");
-
-        // Video play/pause on click
-        scroll.querySelectorAll(".update-card-media-wrap--video").forEach((wrap) => {
-            const video = wrap.querySelector("video");
-            const playBtn = wrap.querySelector(".update-card-play");
-            if (!video || !playBtn) return;
-
-            function togglePlay() {
-                if (video.paused) {
-                    // Pause all other videos first
-                    scroll.querySelectorAll("video").forEach((v) => {
-                        if (v !== video) { v.pause(); v.closest(".update-card-media-wrap--video").classList.remove("is-playing"); }
-                    });
-                    video.play();
-                    wrap.classList.add("is-playing");
-                } else {
-                    video.pause();
-                    wrap.classList.remove("is-playing");
-                }
-            }
-
-            wrap.addEventListener("click", togglePlay);
-            video.addEventListener("ended", () => wrap.classList.remove("is-playing"));
-        });
     }
 
     function renderCategoryCards() {
