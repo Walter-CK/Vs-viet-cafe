@@ -57,8 +57,7 @@
                 <article class="update-card update-card--ig">
                     <div class="update-card-media-wrap${post.type === "video" ? " update-card-media-wrap--video" : ""}">
                         ${mediaHTML}
-                        <div class="update-card-ig-badge"><i class="fa-brands fa-instagram"></i></div>
-                    </div>
+                        </div>
                     <div class="update-card-body">
                         <p class="update-card-caption">${post.caption}</p>
                     </div>
