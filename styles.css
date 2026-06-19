@@ -342,49 +342,6 @@ button, input, select, textarea { font: inherit; }
     display: block;
 }
 
-/* Video play button */
-.update-card-play {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.18);
-    border: 0;
-    color: var(--white);
-    font-size: 2rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.18s;
-}
-
-.update-card-play .fa-play {
-    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
-    margin-left: 4px; /* optical centre for play triangle */
-}
-
-.update-card-media-wrap--video:hover .update-card-play {
-    background: rgba(0,0,0,0.28);
-}
-
-/* Hide play button when playing */
-.update-card-media-wrap--video.is-playing .update-card-play {
-    opacity: 0;
-    pointer-events: none;
-}
-
-/* Show pause icon on hover while playing */
-.update-card-media-wrap--video.is-playing:hover .update-card-play {
-    opacity: 1;
-    pointer-events: auto;
-    background: rgba(0,0,0,0.22);
-}
-
-.update-card-media-wrap--video.is-playing:hover .update-card-play .fa-play::before {
-    content: "\f04c"; /* Font Awesome pause unicode */
-}
-
 /* Caption */
 .update-card-body {
     padding: 0.9rem 1rem 1.1rem;
